@@ -14,7 +14,7 @@ This repository provides three scripts used to produce the numerical experiments
 
 If you use this code please cite this preprint, preferably like this:
 ```
-@unpublished{NSSR24,
+@unpublished{DSBHS24,
  author = {Duong, Richard and Stein, Viktor and Beinert, Robert and Hertrich, Johannes and Steidl, Gabriele},
  title = {Wasserstein Gradient Flows of {MMD} Functionals with Distance Kernel and {C}auchy Problems on Quantile Functions},
  note = {ArXiv preprint},

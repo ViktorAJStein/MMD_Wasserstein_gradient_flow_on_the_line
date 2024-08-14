@@ -25,3 +25,13 @@ If you use this code please cite this preprint, preferably like this:
  doi = {TODO}
  }
 ``
+
+Required packages
+---------------------------
+This script requires the following Python packages. We tested the code with Python 3.11.7 and the following package versions:
+
+scipy 1.12.0
+numpy 1.26.3
+matplotlib 3.8.2
+
+Usually code is also compatible with some later or earlier versions of those packages.

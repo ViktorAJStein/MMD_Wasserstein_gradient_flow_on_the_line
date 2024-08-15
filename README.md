@@ -25,7 +25,7 @@ If you use this code please cite this preprint, preferably like this:
  url = {https://arxiv.org/abs/2408.07498},
  doi = {10.48550/arXiv.2408.07498}
  }
-``
+```
 
 
 Required packages
@@ -35,5 +35,6 @@ This script requires the following Python packages. We tested the code with Pyth
 scipy 1.12.0
 numpy 1.26.3
 matplotlib 3.8.2
+pypdf 4.3.1 (if you want to collate single pdf plots to one big pdf)
 
 Usually code is also compatible with some later or earlier versions of those packages.

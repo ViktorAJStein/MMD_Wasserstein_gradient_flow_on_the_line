@@ -5,10 +5,10 @@ Overview
 ---------------------------
 This repository provides three scripts used to produce the numerical experiments for the paper
 
-[Wasserstein Gradient Flows of MMD Functionals with Distance Kernel and  Cauchy Problems on Quantile Functions](https://arxiv.org/abs/TODO) by [Richard Duong](https://www.researchgate.net/profile/Richard-Duong), [Viktor Stein](https://viktorajstein.github.io/), [Robert Beinert](https://scholar.google.com/citations?user=D-RIm78AAAAJ&hl=en&oi=ao), [Johannes Hertrich](https://johertrich.github.io/), and [Gabriele Steidl](https://page.math.tu-berlin.de/~steidl/).
+[Wasserstein Gradient Flows of MMD Functionals with Distance Kernel and  Cauchy Problems on Quantile Functions](https://arxiv.org/abs/2408.07498) by [Richard Duong](https://www.researchgate.net/profile/Richard-Duong), [Viktor Stein](https://viktorajstein.github.io/), [Robert Beinert](https://scholar.google.com/citations?user=D-RIm78AAAAJ&hl=en&oi=ao), [Johannes Hertrich](https://johertrich.github.io/), and [Gabriele Steidl](https://page.math.tu-berlin.de/~steidl/).
 
-1. ```implicit_with_Dirac_at_zero_target``` recreates figure ..., illustrating the implicit Euler discretization of the MMD flow whose target is the Dirac measure at 0.
-2. ```discrete_Target``` recreates figures ... and ... and implements the explicit formula for the quantile functions of the MMD flow with discrete target measure.
+1. ```implicit_with_Dirac_at_zero_target``` recreates figure 21, illustrating the implicit Euler discretization of the MMD flow whose target is the Dirac measure at 0.
+<! 2. ```discrete_Target``` recreates figures 14 and implements the explicit formula for the quantile functions of the MMD flow with discrete target measure. -->
 3. ```Euler_schemes``` recreates all other figures.
 
 
@@ -18,13 +18,14 @@ If you use this code please cite this preprint, preferably like this:
  author = {Duong, Richard and Stein, Viktor and Beinert, Robert and Hertrich, Johannes and Steidl, Gabriele},
  title = {Wasserstein Gradient Flows of {MMD} Functionals with Distance Kernel and {C}auchy Problems on Quantile Functions},
  note = {ArXiv preprint},
- volume = {arXiv:TODO},
+ volume = {arXiv:2408.07498},
  year = {2024},
  month = {Aug},
- url = {https://arxiv.org/abs/TODO},
- doi = {TODO}
+ url = {https://arxiv.org/abs/2408.07498},
+ doi = {10.48550/arXiv.2408.07498}
  }
 ``
+
 
 Required packages
 ---------------------------

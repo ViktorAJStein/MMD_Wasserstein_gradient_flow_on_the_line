@@ -1,7 +1,7 @@
 import numpy as np
 import scipy.stats
 import matplotlib.pyplot as plt
-from functools import partial
+# from functools import partial
 from pypdf import PdfWriter
 import os
 import functools
@@ -171,8 +171,8 @@ def implicit_Euler(R_nu, s, h, g):
         the new iterate, evaluated on s.
 
     '''
-    f = lambda x: x + h*R_nu(x)
-    return bisection(f, g+h*s, x_init=g)
+    f = lambda x: x + 2*h*R_nu(x)
+    return bisection(f, g+2*h*s, x_init=g)
 
 
 def explicit_Euler(R_nu, s, h, g):
@@ -199,16 +199,14 @@ if __name__ == '__main__':
     #       [scipy.stats.norm(loc=-10), scipy.stats.norm(loc=10)],
     #       [1/2, 1/2])
     R_nu = target_measure.cdf
-    # lambda x: np.where(x < 0, 0, np.where(x <= 1, x**2, 1))
-    # lambda x: np.where(0 <= x >= 1, np.sqrt(x), 0)
     initial_g = bisection(initial_measure.cdf, s, lower_1_Lipschitz=False)
     target_g = bisection(R_nu, s, lower_1_Lipschitz=False)
     initial_x, initial_y = approx_density(s, initial_g)
     target_x, target_y = approx_density(s, target_g)
     h = 1e-2  # step size
 
-    implicit_step_g = partial(implicit_Euler, R_nu, s, h)
-    explicit_step_g = partial(explicit_Euler, R_nu, s, h)
+    implicit_step_g = functools.partial(implicit_Euler, R_nu, s, h)
+    explicit_step_g = functools.partial(explicit_Euler, R_nu, s, h)
     # apply one step:
     g_impl = initial_g
     g_expl = initial_g

@@ -32,9 +32,9 @@ Required packages
 ---------------------------
 This script requires the following Python packages. We tested the code with Python 3.11.7 and the following package versions:
 
-scipy 1.12.0
-numpy 1.26.3
-matplotlib 3.8.2
-pypdf 4.3.1 (if you want to collate single pdf plots to one big pdf)
+* scipy 1.12.0
+* numpy 1.26.3
+* matplotlib 3.8.2
+* pypdf 4.3.1 (if you want to collate single pdf plots to one big pdf)
 
 Usually code is also compatible with some later or earlier versions of those packages.

@@ -13,7 +13,7 @@ This repository provides three scripts used to produce the numerical experiments
 <!-- 2. ```discrete_Target``` recreates figures 14 and implements the explicit formula for the quantile functions of the MMD flow with discrete target measure. -->
 
 
-If you use this code please cite this preprint, preferably like this:
+If you use this code please cite our paper, preferably like this:
 ```
 @article{DRSS2025,
     title={Wasserstein gradient ﬂows of {MMD} functionals with distance kernels under {Sobolev} regularization}, 

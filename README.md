@@ -15,16 +15,16 @@ This repository provides three scripts used to produce the numerical experiments
 
 If you use this code please cite this preprint, preferably like this:
 ```
-@unpublished{DSBHS24,
- author = {Duong, Richard and Stein, Viktor and Beinert, Robert and Hertrich, Johannes and Steidl, Gabriele},
- title = {Wasserstein Gradient Flows of {MMD} Functionals with Distance Kernel and {C}auchy Problems on Quantile Functions},
- note = {ArXiv preprint},
- volume = {arXiv:2408.07498},
- year = {2024},
- month = {Aug},
- url = {https://arxiv.org/abs/2408.07498},
- doi = {10.48550/arXiv.2408.07498}
- }
+@article{DRSS2025,
+    title={Wasserstein gradient ﬂows of {MMD} functionals with distance kernels under {Sobolev} regularization}, 
+    author={R. Duong and R. Rux and V. Stein and G. Steidl},
+    journal = {Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+    volume = {383},
+    number = {2298},
+    pages = {20240243},
+    year = {2025},
+    doi = {10.1098/rsta.2024.0243}, 
+}
 ```
 
 
